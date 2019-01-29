@@ -1,0 +1,386 @@
+body {
+  font-family: $base-font-family;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $brand-color;
+  font-weight: bold;
+}
+
+h1, h2 {
+  letter-spacing: .1rem;
+}
+
+h3 {
+  font-variant: small-caps;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: .2rem 2rem .2rem 2rem;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+  background-color: $brand-color;
+  cursor: pointer;
+
+  /* inherit font & color from ancestor */
+  color: inherit;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+  font-size: 1.2rem;
+  font-variant: small-caps;
+  color: $text-color;
+  font-family: $title-font-family;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.container {
+  max-width: 20rem;
+  margin: auto;
+}
+
+#banner {
+  background-color: $dark-background-color;
+  width: 15rem;
+  height: 17rem;
+  margin: auto;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#nav-container {
+  background-color: $dark-background-color;
+  margin: auto;
+  color: $brand-color;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  padding-top: 0.2rem;
+}
+
+#nav {
+  margin: auto;
+}
+
+.nav-links {
+  font-family: $title-font-family;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 2rem;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  margin-top: 0.2rem;
+}
+
+#content {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#categories {
+  width: 70%;
+  margin: auto;
+}
+
+#categories ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+#categories ul li {
+  line-height: 2rem;
+  background-color: $dark-background-color;
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: 45rem;
+  display: block;
+  margin: auto;
+}
+
+.pin {
+  max-width: 25rem;
+}
+
+.pin-link {
+  text-align: center;
+  a {
+    color: $highlight-color;
+  }
+}
+
+#title {
+  color: $brand-color;
+  font-family: $title-font-family;
+  line-height: .5rem;
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+
+#posts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+}
+
+.post {
+  margin: auto;
+  margin-top: 2rem;
+  text-align: left;
+  border-bottom: 1px solid $light-text-color;
+  padding-bottom: 1rem;
+  width: 100%;
+  box-sizing: content-box;
+  box-sizing: border-box;
+}
+
+.post-footer {
+  width: 100%;
+  height: 2rem;
+  background-color: $dark-background-color;
+  padding-top: 0.7rem;
+}
+
+.post-title {
+  font-weight: normal;
+  line-height: 1.5rem;
+  color: $text-color;
+  font-variant: small-caps;
+  width: 90%;
+  font-family: $title-font-family;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 1rem;
+  height: 2.5rem;
+}
+
+.post-title a {
+  color: $text-color;
+}
+
+.post-date {
+  font-weight: normal;
+  color: $light-text-color;
+  border-bottom: 1px solid $light-text-color;
+  line-height: 1.5rem;
+  font-variant: small-caps;
+  margin: 0;
+  margin-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.post-excerpt {
+  color: $text-color;
+  text-align: justify;
+}
+
+.single-post-title {
+  font-weight: normal;
+  line-height: 1.5rem;
+  color: $text-color;
+  font-variant: small-caps;
+  font-family: $title-font-family;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.single-post-date {
+  font-weight: normal;
+  color: $light-text-color;
+  line-height: 1.5rem;
+  font-variant: small-caps;
+  margin: 0;
+  margin-top: .5rem;
+  padding-bottom: .5rem;
+  min-width: 100%;
+}
+
+.single-post-meta {
+  border-bottom: 1px solid $light-text-color;
+}
+
+.single-post-content {
+  text-align: left;
+}
+
+.single-post-footer {
+  width: 100%;
+  height: 4rem;
+  background-color: $dark-background-color;
+  padding-top: 0.7rem;
+}
+
+.links {
+  font-family: $title-font-family;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5rem;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+}
+
+.link-item {
+  padding-left: 0.2em;
+  padding-right: 0.2rem;
+}
+
+.pagination-links {
+  justify-content: center;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.social-links {
+  font-size: 2.5rem;
+  justify-content: center;
+  .link-item {
+    padding: 0.5rem;
+  }
+}
+
+
+
+#map {
+  position: absolute;
+  top: inherit;
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 40rem;
+  z-index: -1;
+}
+
+#map-buffer {
+  height: 20rem;
+}
+
+.photo-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.photo-column {
+  width: 100%;
+}
+
+.flex-item {
+  margin: auto;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    min-width: 40rem;
+  }
+  #nav {
+    width: 40rem;
+  }
+  .post {
+    width: 50%;
+    padding-left: .6rem;
+    padding-right: .6rem;
+  }
+  .post-excerpt {
+    min-height: 15rem;
+  }
+  .single-post-content {
+    width: 90%;
+    margin: auto;
+  }
+  #map {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  #map-buffer {
+    height: 35rem;
+  }
+  .photo-row {
+    flex-direction: row;
+  }
+  .pagination-links {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .link-item {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .single-post-footer {
+    height: 2rem;
+
+  }
+}
+
+@media only screen and (min-width: 825px) {
+  .container {
+    min-width: 50rem;
+  }
+  .post-title {
+    height: 2rem;
+  }
+  .post-excerpt {
+    min-height: 12rem;
+  }
+  .pagination-links {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .link-item {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    min-width: 60rem;
+  }
+  .post-title {
+    height: 2rem;
+  }
+  .post-excerpt {
+    min-height: 12rem;
+  }
+  .pagination-links {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .link-item {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}

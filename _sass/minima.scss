@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Loved+by+the+King|Open+Sans');
+
+// Define defaults for each variable.
+
+$base-font-family: "Open Sans", Roboto, Helvetica, Arial, sans-serif;
+$title-font-family: "Loved by the King", "Times New Roman", serif;
+$base-font-size:   1rem;
+$base-font-weight: 400;
+
+$text-color:       #333;
+$light-text-color: #aaa;
+$highlight-color: #6F1861;
+$background-color: #fff;
+$dark-background-color: #222;
+$brand-color:      #87cefa;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/layout";
