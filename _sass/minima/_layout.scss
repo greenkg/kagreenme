@@ -132,6 +132,11 @@ button {
   }
 }
 
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
 #title {
   color: $brand-color;
   font-family: $title-font-family;
