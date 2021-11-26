@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  Yellowstone, Day 1
-date:   2019-04-21 14:23:23 -0500
+date:   2019-04-22 14:23:23 -0500
 categories: travel
 image: "https://s3.amazonaws.com/open-photos/kagreenme/hero-yellowstone2019-day1.png"
 ---
 
-Our visit to Yellowstone the first open week of the 2018 spring season.
+Our visit to Yellowstone the first open week of the 2019 spring season.
 
 This was my first time visiting Yellowstone National Park, a destination full of bison and geothermal oddities.
 
@@ -14,17 +14,13 @@ This was my first time visiting Yellowstone National Park, a destination full of
 
 ----
 
-<h3>This post is part four of four</h3>
+<h3>This post is part one of a series</h3>
 <p>To skip to other posts in the series, please use the links below.</p>
 <ul>
-  <li><a href="{{ site.url }}/posts/iceland-southern-coast-day-1.html/">Day 1: Kirkjufjara</a></li>
-  <li><a href="{{ site.url }}/posts/iceland-southern-coast-day-2.html">Day 2: Vatnajökull and Jokulsarlon</a></li>
+  <li><a href="{{ site.url }}/posts/yellowstone-day1.html/">Day 1: Hot Pools and Old Faithful</a></li>
+  <li><a href="{{ site.url }}/posts/yellowstone-day2.html">Day 2: Norris Geyser Basin</a></li>
   <li><a href="{{ site.url }}/posts/iceland-southern-coast-day-3.html">Day 3: The Golden Circle</a></li>
 </ul>
-
-----
-
-For those of you who are here for the photos, I apologize that there is not too much to see from these last two days. The activities on Day 4 did not lend themselves to photography.
 
 ----
 
@@ -102,7 +98,24 @@ A river runs past the entrance to the spring, and hot water pours down from the 
 
 ----
 
-Fill in here.
+This area is named for geological features that are no longer in the area. There used to be "biscuit-like deposits" surrounding Sapphire Pool (one of several pools at the site), but in 1959 the deposits were blown away when Sapphire erupted. So no more biscuits!
+
+<img src="/img/blank.png" alt="Biscuit Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-biscuitbasin-02.png" class="img-fluid">
+
+<img src="/img/blank.png" alt="Biscuit Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-biscuitbasin-01.png" class="img-fluid">
+
+Here you can see a close up shot of some of the strange yellow bacteria that provides color to these hot pools.
+
+<img src="/img/blank.png" alt="Biscuit Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-biscuitbasin-03.png" class="img-fluid">
+
+This shallow stream runs on top of this bright green growth.
+
+<img src="/img/blank.png" alt="Biscuit Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-biscuitbasin-05.png" class="img-fluid">
+
+On a cold day, the steam blowing off the hot pools provides a moment of comforting warmth, but leaves you soaked and freezing when the wind changes the next moment to blow the warm steam away.
+
+<img src="/img/blank.png" alt="Biscuit Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-biscuitbasin-04.png" class="img-fluid">
+
 
 ----
 
@@ -110,7 +123,25 @@ Fill in here.
 
 ----
 
-Fill in here.
+Black Sand Basin is a short distance away from Old Faithful. It is part of the Upper Geyser Basin and is home to several colorful hot pools and geysers.
+
+<img src="/img/blank.png" alt="Black Sand Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-blacksandbasin-03.png" class="img-fluid">
+
+The hot pools create a steamy fog.
+
+<img src="/img/blank.png" alt="Black Sand Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-blacksandbasin-02.png" class="img-fluid">
+
+This water bubbled and splashed ominously.
+
+<img src="/img/blank.png" alt="Black Sand Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-blacksandbasin-01.png" class="img-fluid">
+
+
+
+
+
+<img src="/img/blank.png" alt="Black Sand Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-blacksandbasin-04.png" class="img-fluid">
+
+<img src="/img/blank.png" alt="Black Sand Basin" data-echo="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-blacksandbasin-05.png" class="img-fluid">
 
 ----
 
@@ -118,4 +149,7 @@ Fill in here.
 
 ----
 
-Fill in here.
+<video controls>
+  <source src="https://s3.amazonaws.com/open-photos/kagreenme/yellowstone2019-oldfaithful.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

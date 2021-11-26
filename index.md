@@ -4,7 +4,7 @@
 
 layout: travel
 title: Travel Log
-image: "https://s3.amazonaws.com/kagreen.me/hummingbird.svg"
+image: "https://s3.amazonaws.com/open-photos/kagreenme/hummingbird.svg"
 pagination:
   enabled: true
 ---
